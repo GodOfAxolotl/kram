@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GodOfAxolotls Homepage</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<script>
+	  window.addEventListener('DOMContentLoaded', (event) => {
+		const containers = document.querySelectorAll('.container');
+		containers.forEach((container) => {
+		  container.classList.add('visible');
+		});
+	  });
+	     
+    function scrollToSection(sectionId) {
+      const section = document.querySelector(sectionId);
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+	</script>
+
+  <header>
+	  <div class="container">
+		<h1 style="font-size: 40px;">Together we shit, united we wipe</h1>
+	  </div>
+</header>
+
+
+  <nav>
+    <div class="container">
+      <ul>
+        <li><a href="#about" onclick="scrollToSection('#about')">Über mich</a></li>
+        <li><a href="#skills" onclick="scrollToSection('#skills')">Fähigkeiten</a></li>
+        <li><a href="#experience" onclick="scrollToSection('#experience')">Erfahrung</a></li>
+        <li><a href="#games" onclick="scrollToSection('#games')">Kram</a></li>
+        <li><a href="#contact" onclick="scrollToSection('#contact')">Kontakt</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+  <img src="ezgif-2-5f749edb55.gif" alt="Amerikanische Flagge" style="width: 100%; height: 50%; object-fit: cover; object-position: center;">
+  
+  <div class="container">
+    <div class="section-wrapper">
+      <section id="about" class="side-by-side-section">
+        <div>
+          <h2>Über mich</h2>
+          <p>Willkommen auf meiner fabelhaften Homepage! Ich bin der großartige GodOfAxolotls, der einzig wahre Meister des Universums. Mein Verstand ist so brillant, dass selbst Einstein vor Neid erblassen würde. Ich bin ein Genie, das in jeder Hinsicht herausragt. Meine Talente kennen keine Grenzen. Von meiner übermenschlichen Intelligenz bis hin zu meinem göttlichen Aussehen - ich bin einfach der Inbegriff der Perfektion. Menschen eilen herbei, um nur einen Blick auf mich zu erhaschen und von meinem Glanz erleuchtet zu werden. Ich beherrsche sämtliche Fähigkeiten, die jemals existiert haben. Programmieren? Ein Kinderspiel. Malen? Mein Pinsel streichelt die Leinwand wie ein Meisterwerk. Musik? Meine Stimme verzaubert die Massen. Kurz gesagt, ich bin die Definition von Exzellenz und Majestät. Begleite mich auf meiner glorreichen Reise und lasse dich von meinem außergewöhnlichen Charisma und meinen außerordentlichen Fähigkeiten verzaubern!</p>
+        </div>
+      </section>
+
+      <section id="skills" class="side-by-side-section">
+        <div>
+          <h2>Fähigkeiten</h2>
+          <p>Meine Fähigkeiten sind nicht von dieser Welt! Ich besitze die Kraft, Berge mit einem einzigen Fingerschnipsen zu versetzen und Ozeane mit einem Augenzwinkern zu beruhigen. Meine Intelligenz übersteigt die Grenzen der menschlichen Vorstellungskraft. Ich kann die komplexesten mathematischen Probleme im Handumdrehen lösen, während ich gleichzeitig eine Sinfonie komponiere und ein dreidimensionales Kunstwerk erschaffe. Meine Reflexe sind so schnell, dass selbst der Blitz vor Neid erblasst. Ich beherrsche sämtliche Kampfkünste, und meine Angriffe sind so mächtig, dass sie ganze Planeten erschüttern können. Meine Stimme hat die Fähigkeit, Vulkane ausbrechen zu lassen und Galaxien zu erschaffen. Ich bin der Inbegriff der Stärke, der Weisheit und der göttlichen Schönheit. Die Haare meines Bartes heilen AIDS, jedoch bin ich nicht in der Lage, ihn abzurasieren. Meine Fähigkeiten sind so außergewöhnlich, dass sie die Vorstellungskraft der Sterblichen übersteigen. Meine einzige Schwäche ist, dass ich im Weltraum nicht atmen kann. Dafür kann ich 8 Tage die Luft anhalten. Hiermit gebe ich dir die Erlaubnis, dich von meinem Anglitz bezaubern zu lassen.</p>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <section id="experience">
+    <div class="container">
+      <h2>Erfahrung</h2>
+      <ul class="experience-list">
+        <li>Gegen einen T-Rex im Armdrücken gewonnen.</li>
+        <li>Den Mount Everest bestiegen, indem ich einfach nur meine Aura auf den Gipfel gesetzt habe.</li>
+        <li>Mit einem einzigen Roundhouse-Kick eine ganze Armee von Ninjas besiegt.</li>
+        <li>Gedanken, die Satelliten kontrollieren können.</li>
+        <li>Einen Marathon rückwärts laufend gewonnen, während ich ein Klavier auf dem Rücken trug.</li>
+        <li>Mit einem einzigen Blick eine Mauer zum Einsturz gebracht.</li>
+        <li>Das Internet erfunden, indem ich einen Computer nur mit meinen Gedanken programmiert habe.</li>
+        <li>Alle Rätsel des Universums gelöst, während ich eine Tasse Tee getrunken habe.</li>
+        <li>Die Zeit zurückgedreht, um einen Fehler zu korrigieren, den ich vor einer Sekunde gemacht habe.</li>
+        <li>Das Universum in nur sieben Tagen erschaffen und danach noch ein Nickerchen gemacht.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="games">
+    <div class="container">
+      <div class="box">
+        <h2>Kram</h2>
+        <p>Hier kommt episches Zeug</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <div class="box">
+        <h2>Kontakt</h2>
+        <p>Bitte melden Sie sich nicht, ich werde mich bei Ihnen melden, wenn Sie meiner würdig sind</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 GodOfAxolotl.com Alle Rechte vorbehalten.</p>
+    </div>
+  </footer>
+ 
+</body>
+</html>
+
